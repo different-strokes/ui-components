@@ -1,15 +1,10 @@
-import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import React from 'react';
 
-class {{ componentName }} extends Component {
-  render() {
-    return (
-      <div>
-        <p>This is {{ componentName }}</p>
-      </div>
-    );
-  }
-}
+const {{ componentName }} = () => (
+  <div>
+    <p>This is {{ componentName }}</p>
+  </div>
+);
 
 {{ componentName }}.propTypes = {};
 
