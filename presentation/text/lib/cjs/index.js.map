@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/index.js"],"names":[],"mappings":";;;;;;AAAA;;AAEA;;;;;;kBAEe,0BAAM,kBAAN,mB","file":"index.js","sourcesContent":["import { themr } from 'react-css-themr';\n\nimport UiText from './UiText';\n\nexport default themr('@strokes/ui-text')(UiText);\n"]}
