@@ -4,26 +4,6 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var _getPrototypeOf = require('babel-runtime/core-js/object/get-prototype-of');
-
-var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
-
-var _classCallCheck2 = require('babel-runtime/helpers/classCallCheck');
-
-var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
-
-var _createClass2 = require('babel-runtime/helpers/createClass');
-
-var _createClass3 = _interopRequireDefault(_createClass2);
-
-var _possibleConstructorReturn2 = require('babel-runtime/helpers/possibleConstructorReturn');
-
-var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
-
-var _inherits2 = require('babel-runtime/helpers/inherits');
-
-var _inherits3 = _interopRequireDefault(_inherits2);
-
 var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
@@ -34,32 +14,26 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var UiText = function (_Component) {
-  (0, _inherits3.default)(UiText, _Component);
+// import { articleComponentPropTypes } from '@strokes/article-component-prop-types';
 
-  function UiText() {
-    (0, _classCallCheck3.default)(this, UiText);
-    return (0, _possibleConstructorReturn3.default)(this, (UiText.__proto__ || (0, _getPrototypeOf2.default)(UiText)).apply(this, arguments));
-  }
+var UiText = function UiText(_ref) {
+  var text = _ref.text;
+  return _react2.default.createElement(
+    'div',
+    null,
+    _react2.default.createElement(
+      'p',
+      null,
+      'This is UiText. ',
+      text
+    )
+  );
+};
 
-  (0, _createClass3.default)(UiText, [{
-    key: 'render',
-    value: function render() {
-      return _react2.default.createElement(
-        'div',
-        null,
-        _react2.default.createElement(
-          'p',
-          null,
-          'This is UiText'
-        )
-      );
-    }
-  }]);
-  return UiText;
-}(_react.Component);
-
-UiText.propTypes = {};
+UiText.propTypes = {
+  // text: articleComponentPropTypes.text.isRequired,
+  text: _propTypes2.default.string.isRequired
+};
 
 UiText.defaultProps = {};
 
