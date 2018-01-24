@@ -5,7 +5,6 @@
   "author": "Different Strokes",
   "license": "MIT",
   "main": "lib/cjs/index.js",
-  "modules": "lib/esm/index.js",
   "files": [
     "lib",
     "theme"
@@ -19,5 +18,12 @@
   },
   "publishConfig": {
     "registry": " https://registry.npmjs.org"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
