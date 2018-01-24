@@ -1,0 +1,29 @@
+language: node_js
+cache:
+  directories:
+    - "$HOME/.npm"
+node_js:
+  - 8
+before_install:
+  - npm i -g npm@5
+before_script:
+  - npm start bootstrap
+  - npm start build
+script:
+  - npm start lint && npm start test
+after_success:
+  - reports-publisher
+  - npm run wih review
+after_failure:
+  - reports-publisher
+deploy:
+  - provider: script
+    on:
+      branch: master
+    skip_cleanup: true
+    script: npm start storybook -- --publish --git-name "Different Strokes" --git-email utvikling@strokes.no && npm start release -- --automatic --git-name "Different Strokes" --git-email utvikling@strokes.no --no-draft
+  - provider: script
+    on:
+      branch: next
+    skip_cleanup: true
+    script: npm start release -- --prerelease rc --dist-tag next --automatic --git-name "Different Strokes" --git-email utvikling@strokes.no --no-draft

@@ -1,0 +1,23 @@
+{
+  "name": "{{ packageName }}",
+  "description": "Generic {{ componentName }} React component",
+  "version": "0.0.0",
+  "author": "Different Strokes",
+  "license": "MIT",
+  "main": "lib/cjs/index.js",
+  "modules": "lib/esm/index.js",
+  "files": [
+    "lib",
+    "theme"
+  ],
+  "dependencies": {
+    "prop-types": "^15.5.10",
+    "react-css-themr": "^2.1.0"
+  },
+  "peerDependencies": {
+    "react": "^15.6.1"
+  },
+  "publishConfig": {
+    "registry": " https://registry.npmjs.org"
+  }
+}
