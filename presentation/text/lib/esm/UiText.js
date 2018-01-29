@@ -3,25 +3,26 @@ import PropTypes from 'prop-types';
 // import { articleComponentPropTypes } from '@strokes/article-component-prop-types';
 
 var UiText = function UiText(_ref) {
-  var text = _ref.text;
+  var text = _ref.text,
+      theme = _ref.theme;
   return React.createElement(
-    'div',
-    null,
-    React.createElement(
-      'p',
-      null,
-      'This is UiText. ',
-      text
-    )
+    'p',
+    { className: theme.root },
+    text
   );
 };
 
 UiText.propTypes = {
   // text: articleComponentPropTypes.text.isRequired,
-  text: PropTypes.string.isRequired
+  text: PropTypes.string.isRequired,
+  theme: PropTypes.shape({
+    root: PropTypes.string
+  }).isRequired
 };
 
-UiText.defaultProps = {};
+UiText.defaultProps = {
+  theme: {}
+};
 
 export default UiText;
 //# sourceMappingURL=UiText.js.map

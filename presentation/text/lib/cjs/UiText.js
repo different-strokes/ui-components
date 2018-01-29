@@ -17,25 +17,26 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 // import { articleComponentPropTypes } from '@strokes/article-component-prop-types';
 
 var UiText = function UiText(_ref) {
-  var text = _ref.text;
+  var text = _ref.text,
+      theme = _ref.theme;
   return _react2.default.createElement(
-    'div',
-    null,
-    _react2.default.createElement(
-      'p',
-      null,
-      'This is UiText. ',
-      text
-    )
+    'p',
+    { className: theme.root },
+    text
   );
 };
 
 UiText.propTypes = {
   // text: articleComponentPropTypes.text.isRequired,
-  text: _propTypes2.default.string.isRequired
+  text: _propTypes2.default.string.isRequired,
+  theme: _propTypes2.default.shape({
+    root: _propTypes2.default.string
+  }).isRequired
 };
 
-UiText.defaultProps = {};
+UiText.defaultProps = {
+  theme: {}
+};
 
 exports.default = UiText;
 //# sourceMappingURL=UiText.js.map

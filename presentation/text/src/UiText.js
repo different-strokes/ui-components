@@ -16,6 +16,7 @@ UiText.propTypes = {
 
 UiText.defaultProps = {
   theme: {},
+  text: '',
 };
 
 export default UiText;
