@@ -1,3 +1,13 @@
+<a name="0.3.0"></a>
+# 0.3.0 (2018-01-29)
+
+
+### Features
+
+* updated the theme and markup ([a4a6b2a](https://github.com/different-strokes/ui-components/commit/a4a6b2a))
+
+
+
 <a name="0.2.0"></a>
 # 0.2.0 (2018-01-24)
 
