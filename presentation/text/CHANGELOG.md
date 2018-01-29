@@ -1,3 +1,18 @@
+<a name="0.4.0"></a>
+# 0.4.0 (2018-01-29)
+
+
+### Bug Fixes
+
+* removed snapshots ([797ef4b](https://github.com/different-strokes/ui-components/commit/797ef4b))
+
+
+### Features
+
+* added markup rendering and subtype support ([8e07a84](https://github.com/different-strokes/ui-components/commit/8e07a84))
+
+
+
 <a name="0.3.0"></a>
 # 0.3.0 (2018-01-29)
 

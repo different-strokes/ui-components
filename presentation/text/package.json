@@ -1,7 +1,7 @@
 {
   "name": "@strokes/ui-text",
   "description": "Generic UiText React component",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "author": "Different Strokes",
   "license": "MIT",
   "main": "lib/cjs/index.js",
