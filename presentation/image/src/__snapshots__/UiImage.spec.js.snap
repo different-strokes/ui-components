@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UiImage renders correctly 1`] = `
+<figure
+  className={undefined}
+>
+  <img
+    alt={undefined}
+    className={undefined}
+    role="presentation"
+    src={undefined}
+  />
+</figure>
+`;
