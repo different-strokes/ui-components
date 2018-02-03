@@ -1,9 +1,0 @@
-// Jest Snapshot v1, https://goo.gl/fbAQLP
-
-exports[`UiButton renders correctly 1`] = `
-<div>
-  <p>
-    This is UiButton
-  </p>
-</div>
-`;
