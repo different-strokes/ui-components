@@ -9,7 +9,7 @@ const UiButton = ({ onClick, text, theme }) => (
 
 UiButton.propTypes = {
   onClick: PropTypes.func,
-  text: PropTypes.oneOf([
+  text: PropTypes.oneOfType([
     PropTypes.string,
     PropTypes.node,
   ]).isRequired,
