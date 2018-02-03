@@ -1,7 +1,7 @@
 {
   "name": "@strokes/ui-image",
   "description": "Generic UiImage React component",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "Different Strokes",
   "license": "MIT",
   "main": "lib/cjs/index.js",
