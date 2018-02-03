@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/index.js"],"names":[],"mappings":";;;;;;AAAA;;AAEA;;;;;;kBAEe,0BAAM,mBAAN,oB","file":"index.js","sourcesContent":["import { themr } from 'react-css-themr';\n\nimport UiImage from './UiImage';\n\nexport default themr('@strokes/ui-image')(UiImage);\n"]}

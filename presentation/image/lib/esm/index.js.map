@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/index.js"],"names":["themr","UiImage"],"mappings":"AAAA,SAASA,KAAT,QAAsB,iBAAtB;;AAEA,OAAOC,OAAP,MAAoB,WAApB;;AAEA,eAAeD,MAAM,mBAAN,EAA2BC,OAA3B,CAAf","file":"index.js","sourcesContent":["import { themr } from 'react-css-themr';\n\nimport UiImage from './UiImage';\n\nexport default themr('@strokes/ui-image')(UiImage);\n"]}
