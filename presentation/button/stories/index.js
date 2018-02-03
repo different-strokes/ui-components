@@ -1,11 +1,16 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
+import { action } from '@storybook/addon-actions';
 import theme from '../theme/default.scss';
 import UiButton from '../src';
 
 storiesOf('UiButton', module)
-  .add('Renders in storybook', () => (
+  .add('simple button', () => (
     <div>
-      <UiButton theme={theme} />
+      <UiButton
+        text="Click me!"
+        onClick={action('button clicked!')}
+        theme={theme}
+      />
     </div>
   ));
