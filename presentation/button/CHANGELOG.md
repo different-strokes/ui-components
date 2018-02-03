@@ -1,3 +1,13 @@
+<a name="0.1.3"></a>
+## 0.1.3 (2018-02-03)
+
+
+### Bug Fixes
+
+* fixed wrong prop type definition ([94ced4b](https://github.com/different-strokes/ui-components/commit/94ced4b))
+
+
+
 <a name="0.1.2"></a>
 ## 0.1.2 (2018-02-03)
 

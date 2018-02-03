@@ -27,7 +27,7 @@ var UiButton = function UiButton(_ref) {
 
 UiButton.propTypes = {
   onClick: _propTypes2.default.func,
-  text: _propTypes2.default.oneOf([_propTypes2.default.string, _propTypes2.default.node]).isRequired,
+  text: _propTypes2.default.oneOfType([_propTypes2.default.string, _propTypes2.default.node]).isRequired,
   theme: _propTypes2.default.shape({
     button: _propTypes2.default.string
   })
