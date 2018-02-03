@@ -1,7 +1,7 @@
 {
   "name": "@strokes/ui-button",
   "description": "Generic UiButton React component",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Different Strokes",
   "license": "MIT",
   "main": "lib/cjs/index.js",

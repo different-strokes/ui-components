@@ -1,3 +1,13 @@
+<a name="0.1.2"></a>
+## 0.1.2 (2018-02-03)
+
+
+### Bug Fixes
+
+* added default variables ([61b9468](https://github.com/different-strokes/ui-components/commit/61b9468))
+
+
+
 <a name="0.1.1"></a>
 ## 0.1.1 (2018-02-03)
 
