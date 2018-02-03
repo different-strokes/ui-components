@@ -1,3 +1,15 @@
+<a name="0.1.1"></a>
+## 0.1.1 (2018-02-03)
+
+
+### Bug Fixes
+
+* added new snapshots ([9120f79](https://github.com/different-strokes/ui-components/commit/9120f79))
+* added new snapshots ([026158f](https://github.com/different-strokes/ui-components/commit/026158f))
+* cleaned up the button component ([35dd8d6](https://github.com/different-strokes/ui-components/commit/35dd8d6))
+
+
+
 <a name="0.1.0"></a>
 # 0.1.0 (2018-01-24)
 
